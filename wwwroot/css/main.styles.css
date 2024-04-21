@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'ptr-r';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  font-family: ptr-r;
+  font-weight: 400;
+  background-color: #F1F4F8;
+}
+.container {
+  width: 100%;
+}
+header {
+  width: 95% !important;
+  margin: 10px auto;
+}
+.chat-container {
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #5a17d2;
+  padding: 10px 20px;
+  border-radius: 10px;
+  height: auto;
+  min-height: 500px;
+}
+
+.chat-send {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: end;
+
+}
+
+.chat-msg {
+  border: 1px solid #5a17d2;
+  padding: 10px;
+  background-color:#F1F4F8;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.col-send-list {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.chat-receive {
+  display: flex;
+  margin-top: 20px;
+}
+.chat-receive-profile {
+  width: 50px;
+}
+.chat-receive-msg {
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #5a17d2;
+  width: 800px;
+}
+
+.send-chat-container {
+  width: 100%;
+  margin-top: 20px;
+}
+.col-receive-list {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.wrap-send-chat-container {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+input[name=question_text] {
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+}
+input[name=question_text]::placeholder {
+  font-size: 14px;
+  /*padding-left: 20px;*/
+
+  color: #2b2b2e;
+}
+input[name=question_text]:focus {
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+#Capa_1{
+  position: absolute;
+  right: 20px;
+  bottom: 7px;
+  cursor: pointer;
+}
